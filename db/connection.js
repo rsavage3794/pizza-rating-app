@@ -4,7 +4,7 @@ require('dotenv').config()
 const mongoURI =
     process.env.NODE_ENV === 'production'
     ? process.env.DB_URL
-    : 'mongodb://localhost/pizza-rating'
+    : 'mongodb://localhost/pizza-rating-app'
 
 mongoose
     .connect(mongoURI, {
