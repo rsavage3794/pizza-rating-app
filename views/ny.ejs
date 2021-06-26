@@ -1,0 +1,16 @@
+<h1>Pizza in New York</h1>
+<ul style="display:flex;justify-content:space-between; flex-wrap: wrap;">
+    <%pizzas.forEach((pizza) => {%>
+        <li>
+            <h4><%=pizza.restaurant%></h4>
+            <h4><%=pizza.city%></h4>
+            <h4><%=pizza.rating%></h4>
+            <h4><%=pizza.notes%></h4>
+            <a href="/pizza/<%=pizza.id%>/edit" class="btn btn-primary">Edit</a>
+            <a href="/pizza/<%=pizza.id%>" class="btn btn-info">View</a>
+            <form action="/pizza/<%=pizza.id%>?_method=DELETE" method="POST" class="delete-button">
+                <input type="submit" value="Delete" class="btn btn-delete" />
+            </form>
+        </li>
+    <%})%>
+</ul>

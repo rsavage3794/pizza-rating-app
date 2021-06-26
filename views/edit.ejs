@@ -1,0 +1,17 @@
+<form action="/pizza/<%=pizza.id%>/?_method=put" method="POST">
+    <div class="form-group">
+      <label for="restaurant">Restaurant:</label>
+      <input type="text" id="restaurant" name="restaurant" class="form-control" value="<%=pizza.restaurant%>">
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" class="form-control" value="<%=pizza.city%>">
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" class="form-control" value="<%=pizza.state%>">
+      <label for="rating">Rating:</label>
+      <input type="text" id="rating" name="rating" class="form-control" value="<%=pizza.rating%>">
+      <label for="notes">Notes:</label>
+      <input type="text" id="notes" name="notes" class="form-control" value="<%=pizza.notes%>">
+    </div>
+
+    <input type="submit" value="Update Pizza" class="btn btn-primary" />
+    <a href="/pizza" class="btn btn-secondary">Cancel</a>
+</form>

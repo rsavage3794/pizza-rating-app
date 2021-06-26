@@ -1,0 +1,145 @@
+[
+    {
+        "restaurant":"Sally's Apizza",
+        "city":"New Haven",
+        "state":"Connecticut",
+        "rating": 9.4
+    },
+    {
+        "restaurant":"Tony's",
+        "city":"Clinton",
+        "state":"New York",
+        "rating": 4.2,
+        "notes":"Sausage Slice"
+    },
+    {
+        "restaurant":"One Genny",
+        "city":"New Hartford",
+        "state":"New York",
+        "rating": 6.8
+    },
+    {
+        "restaurant":"Strawberry's Pub & Pizza",
+        "city":"Woodbridge",
+        "state":"New Jersey",
+        "rating": 8.2
+    },
+    {
+        "restaurant":"Il Forno a Legna",
+        "city":"Rahway",
+        "state":"New Jersey",
+        "rating": 7.4
+    },
+    {
+        "restaurant":"Modern Apizza",
+        "city":"New Haven",
+        "state":"Connecticut",
+        "rating": 8.6
+    },
+    {
+        "restaurant":"The Cabin Restaurant",
+        "city":"Howell",
+        "state":"New Jersey",
+        "rating": 7.8
+    },
+    {
+        "restaurant":"Ignazio's Pizzeria",
+        "city":"Brooklyn",
+        "state":"New York",
+        "rating": 8.8
+    },
+    {
+        "restaurant":"Santillo's Brick Oven Pizza",
+        "city":"Elizabeth",
+        "state":"New Jersey",
+        "rating": 8.6,
+        "notes":"Pepperoni Slice"
+    },
+    {
+        "restaurant":"Santillo's Brick Oven Pizza",
+        "city":"Elizabeth",
+        "state":"New Jersey",
+        "rating": 8.5,
+        "notes":"Plain Slice"
+    },
+    {
+        "restaurant":"Nomad Pizza",
+        "city":"Princeton",
+        "state":"New Jersey",
+        "rating": 7.6
+    },
+    {
+        "restaurant":"La Bellezza",
+        "city":"New York",
+        "state":"New York",
+        "rating": 7.4
+    },
+    {
+        "restaurant":"Patsy's Pizzeria",
+        "city":"New York",
+        "state":"New York",
+        "rating": 8.5,
+        "notes":"Second Avenue Location"
+    },
+    {
+        "restaurant":"John's of Bleecker Street",
+        "city":"New York",
+        "state":"New York",
+        "rating": 9.4
+    },
+    {
+        "restaurant":"Stromboli Pizza",
+        "city":"New York",
+        "state":"New York",
+        "rating": 7.7
+    },
+    {
+        "restaurant":"Sauce Pizzeria",
+        "city":"New York",
+        "state":"New York",
+        "rating": 8.6
+    },
+    {
+        "restaurant":"East Village Pizza",
+        "city":"New York",
+        "state":"New York",
+        "rating": 8.0
+    },
+    {
+        "restaurant":"Nolita Pizza",
+        "city":"New York",
+        "state":"New York",
+        "rating": 7.8
+    },
+    {
+        "restaurant":"Grimaldi's",
+        "city":"New York",
+        "state":"New York",
+        "rating": 8.3,
+        "notes":"Sixth Avenue location"
+    },
+    {
+        "restaurant":"Frank Pepe Pizzeria",
+        "city":"New Haven",
+        "state":"Connecticut",
+        "rating": 8.5
+    },
+    {
+        "restaurant":"Pizzeria Vetri",
+        "city":"King of Prussia",
+        "state":"Pennsylvania",
+        "rating": 7.7
+    },
+    {
+        "restaurant":"Joe and Pats Pizzeria",
+        "city":"New York",
+        "state":"New York",
+        "rating": 8.6
+    },
+    {
+        "restaurant":"Pasquale Jones",
+        "city":"New York",
+        "state":"New York",
+        "rating": 8.2
+    }
+]

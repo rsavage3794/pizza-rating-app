@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Handwriting';
+    padding: 20px 0 -10px 0;
+}
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    list-style-type: none;
+    padding: 50px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green
+}
+
+.delete-button {
+    display: inline-block;
+
+}
+
+.btn {
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    padding: -10px 0 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.new-slice {
+    color: red;
+    background: transparent;
+    /* border: 1px solid red;
+    border-radius: 4px; */
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding: 100px 0 0 0;
+    font-size: 24px;
+}
+
+h4 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start, center; */
+    color: white;
+    flex-wrap: wrap;
+}
+
+a {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+      img  {
+        height: 100%;
+        width: 100%;
+        padding: 0 0 0 200px;
+    };
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 0 300px;
+    };
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
