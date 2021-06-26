@@ -11,13 +11,14 @@ const pizzaController = require('./controllers/pizza')
 const ejsLayouts = require('express-ejs-layouts')
 const methodOverride = require('method-override')
 
-app.use(methodOverride('_method'))
 
 
 app.set('view engine', 'ejs')
 app.use(ejsLayouts)
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(methodOverride('_method'))
+app.set("port", process.env.PORT || 5000)
 
 // Stretch goal API
 // app.use('/api/pizza', pizzaController)
@@ -32,6 +33,6 @@ app.use('/pizza', pizzaController)
 const port = process.env.PORT || 5000;
 
 //Run server
-app.listen(port, () => {
-    console.log(`listening on port ${port}`)
+app.listen(app.get("port"), () => {
+    console.log(`listening on ${app.get("port")}`)
 });
