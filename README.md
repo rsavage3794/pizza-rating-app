@@ -36,6 +36,7 @@ The Pizza Review App allows you to log some of the best (and possibly worst) piz
 ## Stretch Goals
 
 - I would want to link another pizza review app to mine so we can merge all data together
+- I would want to add a picture of each slice that has been reviewed
 
 ## User Stories
 
